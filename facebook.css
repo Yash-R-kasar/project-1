@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222,220,224);
+}
+.container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    width: 50%;
+}
+h1{
+    color: royalblue;
+    font-size: 60px;
+}
+h3{
+    color: black;
+    font-size:25px;
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Loginpage{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 420px;
+    height: 400px;
+    box-shadow: 0px 1px 7px gray ;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: royalblue;
+    color: white;
+}
+p{
+    color: royalblue;
+}
+hr{
+    border: 1px solid#ccc;
+    width: 300px;
+    margin: 20px;
+}
+.Createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 30px;
+    color: white;
+    border-radius: 5px;
+}
